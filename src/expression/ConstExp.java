@@ -4,21 +4,26 @@ import notation.Notation;
 
 public class ConstExp implements Expression {
     //prop
-    public double value = 0;
+    public int value = 0;
+
+    public ConstExp(int value) {
+        this.value = value;
+    }
 
     //method
     @Override
-    public double evaluate(double value) {
-        return 0;
+    public int evaluate(int value) {
+        return value;
     }
 
     @Override
     public Expression derive() {
-        return null;
+        return new ConstExp(value);
     }
 
     @Override
     public String toString(Notation notation) {
-        return null;
+        return value + "";
     }
+
 }

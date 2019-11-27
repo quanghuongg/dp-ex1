@@ -4,11 +4,11 @@ import notation.Notation;
 
 public class MonimialExp implements Expression {
     //prop
-    public double n;
-    public double a;
+    public int n;
+    public int a;
 
     @Override
-    public double evaluate(double x) {
+    public int evaluate(int x) {
         return 0;
     }
 
@@ -17,8 +17,25 @@ public class MonimialExp implements Expression {
         return null;
     }
 
+    public MonimialExp(int a, int n) {
+        this.n = n;
+        this.a = a;
+    }
+
+    public MonimialExp() {
+    }
+
     @Override
     public String toString(Notation notation) {
-        return null;
+        if (n == 0)
+            return "a*x";
+        return a + "*x^" + n;
+    }
+
+    public Expression createInstance() {
+        if (a == 0 ) {
+            return new ConstExp(0);
+        }
+        return new MonimialExp(a, n);
     }
 }

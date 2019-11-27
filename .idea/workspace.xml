@@ -2,9 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="af47675a-16be-4aa7-b959-59f34f6c91fd" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/utils/NotationUtils.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/expression/AddExp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/expression/AddExp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/expression/BinaryExp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/expression/BinaryExp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/expression/ConstExp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/expression/ConstExp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/expression/Expression.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/expression/Expression.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/expression/MonimialExp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/expression/MonimialExp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/expression/MulExp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/expression/MulExp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/notation/PrefixNotation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/notation/PrefixNotation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/utils/NotationUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/utils/NotationUtils.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -26,12 +33,6 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-  </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-3" />
-    <option name="y" value="15" />
-    <option name="width" value="1386" />
-    <option name="height" value="788" />
   </component>
   <component name="ProjectId" id="1UBAIj68saAIYlTnjQsB0EjQGkd" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -80,7 +81,7 @@
       <option name="presentableId" value="Default" />
       <updated>1574790109501</updated>
       <workItem from="1574790114040" duration="1315000" />
-      <workItem from="1574819538837" duration="1632000" />
+      <workItem from="1574819538837" duration="6810000" />
     </task>
     <servers />
   </component>
@@ -103,8 +104,18 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/Main.java</url>
-          <line>6</line>
+          <line>13</line>
           <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/utils/NotationUtils.java</url>
+          <line>80</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Main.java</url>
+          <line>34</line>
+          <option name="timeStamp" value="7" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
