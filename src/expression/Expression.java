@@ -4,7 +4,7 @@ import notation.Notation;
 
 public interface Expression {
 
-    int evaluate(int x);
+    double evaluate(int x);
 
     Expression derive();
 

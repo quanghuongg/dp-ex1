@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="af47675a-16be-4aa7-b959-59f34f6c91fd" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/expression/DivExp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/expression/SubExp.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/BT1_1612247/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BT1_1612247/Main.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/expression/AddExp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/expression/AddExp.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/expression/BinaryExp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/expression/BinaryExp.java" afterDir="false" />
@@ -10,8 +13,6 @@
       <change beforePath="$PROJECT_DIR$/src/expression/Expression.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/expression/Expression.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/expression/MonimialExp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/expression/MonimialExp.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/expression/MulExp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/expression/MulExp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/notation/PrefixNotation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/notation/PrefixNotation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/utils/NotationUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/utils/NotationUtils.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -81,7 +82,8 @@
       <option name="presentableId" value="Default" />
       <updated>1574790109501</updated>
       <workItem from="1574790114040" duration="1315000" />
-      <workItem from="1574819538837" duration="6810000" />
+      <workItem from="1574819538837" duration="7336000" />
+      <workItem from="1574854697546" duration="4725000" />
     </task>
     <servers />
   </component>
@@ -93,7 +95,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
@@ -104,18 +108,8 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/Main.java</url>
-          <line>13</line>
+          <line>8</line>
           <option name="timeStamp" value="1" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/utils/NotationUtils.java</url>
-          <line>80</line>
-          <option name="timeStamp" value="4" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Main.java</url>
-          <line>34</line>
-          <option name="timeStamp" value="7" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

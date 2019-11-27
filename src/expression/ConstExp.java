@@ -12,8 +12,8 @@ public class ConstExp implements Expression {
 
     //method
     @Override
-    public int evaluate(int value) {
-        return value;
+    public double evaluate(int x) {
+        return this.value;
     }
 
     @Override

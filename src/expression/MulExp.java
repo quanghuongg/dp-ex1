@@ -5,12 +5,18 @@ public class MulExp extends BinaryExp {
         super(expression1, expression2);
     }
 
-    int doEvaluate(int a, int b) {
-        return 0;
+    double doEvaluate(double a, double b) {
+        return a * b;
     }
 
     String getOperator() {
-        return "/";
+        return "*";
     }
 
+    @Override
+    public double evaluate(int x) {
+        double a = expression1.evaluate(x);
+        double b = expression2.evaluate(x);
+        return doEvaluate(a, b);
+    }
 }

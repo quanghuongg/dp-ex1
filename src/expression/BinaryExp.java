@@ -8,8 +8,8 @@ public abstract class BinaryExp implements Expression {
     public Expression expression2;
 
     @Override
-    public int evaluate(int x) {
-        return 0;
+    public double evaluate(int x) {
+       return  0;
     }
 
     @Override
@@ -21,7 +21,7 @@ public abstract class BinaryExp implements Expression {
     public String toString(Notation notation) {
         String op = getOperator();
         String operand1 = expression1.toString(notation);
-        String operand2 = expression1.toString(notation);
+        String operand2 = expression2.toString(notation);
         return notation.arrange(op, operand1, operand2);
     }
 
@@ -30,7 +30,7 @@ public abstract class BinaryExp implements Expression {
         this.expression2 = expression2;
     }
 
-    int doEvaluate(int val1, int val2) {
+    double doEvaluate(double val1, double val2) {
         return 0;
     }
 
