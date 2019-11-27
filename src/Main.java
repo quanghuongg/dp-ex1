@@ -23,7 +23,7 @@ public class Main {
         System.out.println("---------------");
 
         Expression exp = new MonimialExp(0, 4);
-        expression = ((MonimialExp) expression).createInstance();
+        exp = ((MonimialExp) exp).createInstance();
         System.out.println("expression mono with a= 0, n=4:  " + exp.toString(infix));
         System.out.println("---------------");
 
